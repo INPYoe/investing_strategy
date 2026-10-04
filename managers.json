@@ -1,0 +1,82 @@
+{
+  "selection_asof": "2026-10-04",
+  "selection_policy": "장기 보유 성향, 연속 13F 제출 이력, 공개 현물 추적 가능성을 우선한다. 기관 공시를 특정 개인의 전체 포트폴리오로 표현하지 않는다. 운용 규모에 비례해 가중하지 않으며 각 운용사를 동등하게 취급한다.",
+  "production_research_cohort": [
+    {
+      "id": "duquesne",
+      "name": "Duquesne Family Office LLC",
+      "lead_name": "Stanley Druckenmiller",
+      "cik": "0001536411",
+      "style": "long_term_concentrated",
+      "rationale": "집중 현물 포지션의 분기 변화가 공개되며 장기 보유 패턴이 확인된다.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001536411&type=13F"
+    },
+    {
+      "id": "donald_smith",
+      "name": "Donald Smith & Co., Inc.",
+      "lead_name": "Donald Smith",
+      "cik": "0000814375",
+      "style": "deep_value_long_term",
+      "rationale": "저PBR 심층 가치 투자, 장기 보유 성향. 1982년 설립 이후 연속 13F 신고.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814375&type=13F"
+    },
+    {
+      "id": "horizon_kinetics",
+      "name": "Horizon Kinetics Asset Management LLC",
+      "lead_name": "Murray Stahl",
+      "cik": "0001056823",
+      "style": "value_special_situations",
+      "rationale": "로열티·인플레이션 수혜·과소평가 자산 중심 장기 보유. 연속 13F 신고 확인.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001056823&type=13F"
+    },
+    {
+      "id": "strategy_capital",
+      "name": "Strategy Capital LLC",
+      "lead_name": "Investment team",
+      "cik": "0001592413",
+      "style": "long_term_concentrated_value",
+      "rationale": "소수 핵심 종목 집중 장기 보유. 연속 13F 신고 확인.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001592413&type=13F"
+    },
+    {
+      "id": "valley_forge",
+      "name": "Valley Forge Capital Management, LP",
+      "lead_name": "Dev Kantesaria",
+      "cik": "0001697868",
+      "style": "long_term_quality_growth",
+      "rationale": "고품질 성장 기업 장기 보유, 집중 포트폴리오. 연속 13F 신고 확인.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697868&type=13F"
+    }
+  ],
+  "retired_cohort": [
+    {
+      "id": "appaloosa",
+      "name": "Appaloosa LP",
+      "cik": "0001656456",
+      "retired_asof": "2026-10-04",
+      "reason": "단기·매크로 스타일. 장기 핵심 종목 모델 추종 운용사 조건 미충족."
+    },
+    {
+      "id": "pershing_square",
+      "name": "Pershing Square Capital Management, L.P.",
+      "cik": "0001336528",
+      "retired_asof": "2026-10-04",
+      "reason": "장기 투자 성향이나 운용사 최종 목록 조정으로 제외. 추후 재검토 가능."
+    },
+    {
+      "id": "viking",
+      "name": "Viking Global Investors LP",
+      "cik": "0001103804",
+      "retired_asof": "2026-10-04",
+      "reason": "장기 펀더멘털 성향이나 운용사 최종 목록 조정으로 제외. 추후 재검토 가능."
+    },
+    {
+      "id": "coatue",
+      "name": "Coatue Management LLC",
+      "cik": "0001135730",
+      "retired_asof": "2026-10-04",
+      "reason": "성장·기술 중심 단기 회전. 장기 핵심 종목 모델 추종 운용사 조건 미충족."
+    }
+  ],
+  "note": "이 목록은 모든 장기 투자 운용사를 포괄하지 않는다. 목록 변경 시 사유와 적용 시점을 기록하고 과거 성과를 새 목록으로 소급하지 않는다. 동일한 운용 의사결정의 중복 집계 여부는 종목 선정 전에 검증한다."
+}

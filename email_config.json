@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "recipient": "andy224079@gmail.com",
+  "credential_file": "/Users/inpyolee/korail_auto/.env",
+  "sender_env": "GMAIL_USER",
+  "password_env": "GMAIL_APP_PASSWORD",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 465,
+  "subject_prefix": "[Guru Strategy]"
+}

@@ -1,0 +1,5 @@
+httpx>=0.27
+pandas>=2.2
+numpy>=1.26
+pytest>=8
+python-dotenv>=1

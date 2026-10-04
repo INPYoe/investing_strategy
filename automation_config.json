@@ -1,0 +1,28 @@
+{
+  "mode": "observe",
+  "manager_cik": "0001536411",
+  "minimum_weight_pct": 5.0,
+  "budget_usd": null,
+  "max_position_pct": 35.0,
+  "cash_reserve_pct": 2.0,
+  "allocation": "equal_weight_capped",
+  "existing_strategy_policy": "stop_and_liquidate_all_existing_holdings",
+  "exit_policy": "confirmed_exit_or_half_reduction_draft",
+  "account_suffix": "6418",
+  "entry_offsets_sessions": [0],
+  "entry_policy_confirmed": true,
+  "active_ruleset": "multi_guru_draft",
+  "strategy_status": "CONFIRMED_RULES_COLLECTOR_INTEGRATION_PENDING",
+  "strategy_rationale": "신규 3% 이상 또는 비중·분할조정수량 동시 2배 확대. 동시 50% 축소시 절반 축소, 공개 Exit 검증시 제외. 평균매입가 -20%는 알림만. 기존 5% 후보와 35% 비중 상한은 신규 전략에 사용하지 않음.",
+  "first_run_policy": "baseline_only",
+  "research_start_policy": "latest_public_filing_compared_with_previous",
+  "capital_scope": "entire_connected_kis_account",
+  "include_future_deposits": true,
+  "user_authorization_date": "2026-09-21",
+  "credential_file": "/Volumes/Extreme SSD/Binance_Quant/korea_auto_trader/.env",
+  "verified_instruments": {
+    "632307104": {"symbol": "NTRA", "exchange": "NASD"},
+    "874039100": {"symbol": "TSM", "exchange": "NYSE"},
+    "861012102": {"symbol": "STM", "exchange": "NYSE"}
+  }
+}

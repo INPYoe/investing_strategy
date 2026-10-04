@@ -1,0 +1,66 @@
+{
+  "status": "CONFIRMED_SIGNAL_RULES_RESEARCH_ONLY",
+  "active_entry_engine": "fusion_v2_research",
+  "legacy_allocation_status": "SUPERSEDED_NOT_EXECUTABLE",
+  "scope": "multiple_medium_term_managers",
+  "manager_selection_status": "RESEARCH_REQUIRED_NOT_DRUCKENMILLER_ONLY",
+  "initial_reference": "LATEST_PUBLIC_FILING_COMPARED_WITH_PREVIOUS",
+  "runtime": {"host": "Mac mini", "storage": "continuously_connected_external_SSD"},
+  "capital_scope": "entire_connected_kis_account",
+  "entry": {
+    "new_position_min_weight_pct": 3.0,
+    "existing_position_increase_ratio": 2.0,
+    "change_basis": "WEIGHT_AND_SPLIT_ADJUSTED_SHARES_BOTH",
+    "new_position_definition": "ABSENT_PREVIOUS_PRESENT_CURRENT_AFTER_VALIDATION"
+  },
+  "exit": {
+    "confirmed_public_exit_fraction": 1.0,
+    "reduction_ratio_at_or_below": 0.5,
+    "own_position_reduction_fraction": 0.5,
+    "below_5pct_alone_is_exit": false,
+    "missing_row_alone_proves_liquidation": false,
+    "timing": "PROMPT_REVIEW_AFTER_VALIDATION_NOT_GUARANTEED_FILL"
+  },
+  "loss_rule": {
+    "threshold_pct": 20.0,
+    "reference": "AVERAGE_ENTRY_COST",
+    "action": "ALERT_AND_REVIEW_ONLY",
+    "guaranteed_max_loss": false
+  },
+  "consensus": {
+    "meaningful_manager_weight_pct": 1.0,
+    "core_min_managers": 3,
+    "core_min_median_weight_pct": 2.0,
+    "watch_min_managers": 2,
+    "watch_min_max_weight_pct": 3.0,
+    "entry_min_positive_managers": 2,
+    "holding_consensus_alone_is_actionable": false
+  },
+  "capital_deployment": {
+    "cash_target_pct": 0.0,
+    "minimum_invested_pct": 98.0,
+    "allow_margin_borrowing": false,
+    "allow_market_orders": false,
+    "rounding_residual_policy": "UNAVOIDABLE_CASH_BELOW_LOWEST_ELIGIBLE_SHARE_PRICE_PLUS_FEES",
+    "allocation_basis": "NORMALIZED_NEW_SIGNAL_13F_WEIGHTS_WITH_40PCT_SINGLE_NAME_CAP",
+    "phase_1_targets_pct": {
+      "SPCX": 40.0,
+      "INTC": 31.0,
+      "CBRS": 29.0
+    },
+    "phase_2_targets_pct": {
+      "SPCX": 25.0,
+      "INTC": 15.0,
+      "CBRS": 10.0,
+      "TSM": 18.0,
+      "AMZN": 18.0,
+      "META": 14.0
+    },
+    "phase_2_gate": "AT_LEAST_ONE_CORE_CONSENSUS_DIRECTION_CONFIRMED_AND_LIVE_PRICE_GATE_PASSED"
+  },
+  "position_allocation_cap_pct": null,
+  "multi_manager_conflict_policy": "PENDING_DESIGN_DO_NOT_LIQUIDATE_OTHER_MANAGER_ALLOCATION",
+  "pending_questions": [],
+  "pending_design": ["manager_universe_verification", "portfolio_allocation", "multi_manager_conflicts", "split_and_corporate_action_sources", "point_in_time_backtest"],
+  "orders_enabled": false
+}

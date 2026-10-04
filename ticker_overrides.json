@@ -1,0 +1,31 @@
+{
+  "722304102": {
+    "symbol": "PDD",
+    "expected_class": "SPONSORED ADS",
+    "currency": "USD",
+    "exchange": "NASDAQ",
+    "verified_on": "2026-09-22",
+    "reason": "공식 IR의 NASDAQ ADS PDD와 SEC 보유표의 CUSIP 722304102를 대조. 0A2S.IL 가격으로 대체하지 않음.",
+    "source": "https://investor.pddholdings.com/information-investors",
+    "cusip_source": "https://www.sec.gov/Archives/edgar/data/1848138/000089457923000226/xslForm13F_X02/informationtable.xml"
+  },
+  "11271J107": {
+    "symbol": "BN",
+    "expected_class": "CL A LTD VT SH",
+    "currency": "USD",
+    "exchange": "NYSE",
+    "verified_on": "2026-09-22",
+    "reason": "공식 주식정보의 NYSE BN, CUSIP 11271J107에 대응. BN.TO CAD 가격을 USD로 간주하지 않고 NYSE 가격을 별도 수집.",
+    "source": "https://bn.brookfield.com/share-information/distributions"
+  },
+  "878742204": {
+    "symbol": "TECK",
+    "reason": "Class B 현물의 USD 상장 TECK 사용. 제공자 TECK-B.TO는 CAD 가격이다.",
+    "source": "https://www.teck.com/investors/investor-resources/"
+  },
+  "984245100": {
+    "symbol": "YPF",
+    "reason": "YPF ADS의 NYSE 티커는 YPF. 제공자 REPYY는 Repsol로 다른 회사이다.",
+    "source": "https://www.sec.gov/Archives/edgar/data/904851/000119312526126363/d95578dex2d.htm"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "classification_fixed_asof": "2026-10-04",
+  "sector_source": "MSCI GICS (Global Industry Classification Standard). 개별 종목 섹터는 MSCI 공식 자료를 우선하며, 미확인 종목은 직접 조회 전까지 UNCLASSIFIED로 표시한다.",
+  "sector_cap": 0.30,
+  "group_cap": 0.40,
+  "note_immutable": "이 분류는 최초 종목 구성 전에 고정한다. 결과를 맞추기 위해 사후 변경하지 않는다. 변경이 필요하면 새 버전으로 기록하고 과거 성과를 소급 적용하지 않는다.",
+
+  "gics_sectors": [
+    "Energy",
+    "Materials",
+    "Industrials",
+    "Consumer Discretionary",
+    "Consumer Staples",
+    "Health Care",
+    "Financials",
+    "Information Technology",
+    "Communication Services",
+    "Utilities",
+    "Real Estate"
+  ],
+
+  "related_groups": [
+    {
+      "id": "financial_intermediation",
+      "name": "금융 중개",
+      "revenue_driver": "예대마진·보험료·운용보수 등 금융 중개 수익. 금리·신용 사이클에 함께 노출.",
+      "gics_overlap": ["Financials"],
+      "tickers": []
+    },
+    {
+      "id": "energy_resources",
+      "name": "에너지·자원",
+      "revenue_driver": "원유·천연가스·광물 채굴·가공 수익. 상품 가격과 생산량이 공통 수익 동인.",
+      "gics_overlap": ["Energy", "Materials"],
+      "tickers": []
+    },
+    {
+      "id": "industrial_infrastructure",
+      "name": "산업·인프라",
+      "revenue_driver": "제조·건설·물류·유틸리티 등 실물 자산 운영 수익. 설비투자 사이클에 함께 노출.",
+      "gics_overlap": ["Industrials", "Utilities"],
+      "tickers": []
+    },
+    {
+      "id": "consumer_brands",
+      "name": "소비자 브랜드",
+      "revenue_driver": "브랜드 가치·유통망 기반 최종 소비자 지출 수익. 가처분 소득·소비 심리에 함께 노출.",
+      "gics_overlap": ["Consumer Staples", "Consumer Discretionary"],
+      "tickers": []
+    },
+    {
+      "id": "technology_platform",
+      "name": "기술·플랫폼",
+      "revenue_driver": "소프트웨어·반도체·디지털 플랫폼 수익. 기술 지출 사이클과 AI 수요에 함께 노출.",
+      "gics_overlap": ["Information Technology", "Communication Services"],
+      "tickers": []
+    },
+    {
+      "id": "healthcare",
+      "name": "헬스케어",
+      "revenue_driver": "의약품·의료기기·의료서비스 수익. 규제 환경·고령화 수요에 함께 노출.",
+      "gics_overlap": ["Health Care"],
+      "tickers": []
+    },
+    {
+      "id": "real_assets",
+      "name": "실물 자산",
+      "revenue_driver": "부동산·로열티·자원 사용권 등 실물 자산 보유·임대 수익. 인플레이션과 실물 희소성에 함께 노출.",
+      "gics_overlap": ["Real Estate", "Energy", "Materials"],
+      "tickers": []
+    }
+  ],
+
+  "assignment_rules": [
+    "tickers는 실제 종목 선정 후 GICS 섹터 확인과 함께 채운다. 선정 전에는 비어 있다.",
+    "기업이 복수 그룹에 속하면 각 그룹의 tickers에 모두 포함하고, 각 그룹 상한(40%)에 모두 반영한다.",
+    "GICS 섹터 분류는 MSCI 공식 자료를 우선하며, 미확인 시 UNCLASSIFIED로 유지한다.",
+    "그룹 분류 이의가 있을 경우 사유를 기록하고 변경 전 버전을 보존한다."
+  ]
+}

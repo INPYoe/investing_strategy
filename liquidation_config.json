@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "activation_status": "COMPLETED_AND_DISABLED_2026-09-22",
+  "authorization": "2026-09-21: 기존 전략 자동주문은 중단하고, 기존 보유종목도 매도해 전환",
+  "account_fingerprint": "d9a31d6a7dfa7585",
+  "not_before": "2026-09-22",
+  "expires_on": "2026-10-02",
+  "authorized_max_quantities": {"002810": 209, "092230": 65},
+  "order_type": "LIMIT_AT_BEST_BID",
+  "cash_or_credit": "CASH_HOLDINGS_ONLY",
+  "first_order_time_kst": "09:07",
+  "last_order_time_kst": "14:50"
+}

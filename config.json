@@ -1,0 +1,12 @@
+{
+  "manager": "Duquesne Family Office LLC",
+  "cik": "0001536411",
+  "minimum_weight_pct": 5.0,
+  "weight_basis": "non_option_SH_holdings_including_ETFs_ADRs",
+  "quarters": 20,
+  "hold_sessions": [63, 126, 252, 378],
+  "cost_bps_per_side": 10,
+  "validation_from_report_date": "2024-01-01",
+  "cash_return": 0.0,
+  "order_execution_enabled": false
+}
